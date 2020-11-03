@@ -12,6 +12,12 @@ body {
 	width: 100%;
 }
 
+
+.desafio-git img {
+	width: auto;
+	height: 300px;
+}
+
 /************** CURSOR **************/
 
 .content p {
