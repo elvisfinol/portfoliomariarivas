@@ -128,10 +128,10 @@ body {
 }
 
 #text-main p {
+	font-family: 'Raleway', sans-serif;
 	font-size: 3vw;
 	text-align: center;
 	font-weight: 100;
-
 }
 
 /* Efecto typing */
@@ -193,15 +193,6 @@ body {
 	padding-bottom: 75px;
 }
 
-h1 {
-	position: relative;
-	margin-bottom: 45px;
-	font-family: 'Oswald', sans-serif;
-	font-size: 44px;
-	text-transform: uppercase;
-	color: #424242;
-}
-
 .gallery-wrap {
 	display: flex;
 	flex-direction: row;
@@ -215,12 +206,11 @@ h1 {
 	background-position: center;
 	background-size: cover;
 	background-repeat: none;
-	transition: flex 0.8s ease;
+	transition: flex 0.7s ease;
 }
 
 .item:hover {
 	flex: 7;
-
 }
 
 
@@ -258,6 +248,7 @@ h1 {
 
 .footer__coppy a {
 	color: white;
+
 }
 
 .footer__social a {
@@ -315,7 +306,6 @@ h1 {
 #main-s-left img {
 	height: 600px;
 	width: auto;
-	border: 1px solid black;
 
 }
 
@@ -346,6 +336,14 @@ h1 {
 	box-shadow: 0px 15px 20px rgba(119, 29, 0, 0.73);
 	color: #fff;
 	transform: translateY(-7px);
+}
+
+.header-section .description_sobremi {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2vw;
+	text-align: center;
+	font-weight: 100;
+	text-align: justify;
 }
 
 .experience {
@@ -555,7 +553,6 @@ h1 {
 }
 
 .section-services .header-section .title:after {
-	content: "";
 	position: absolute;
 	bottom: -1px;
 	left: 50%;
@@ -572,6 +569,7 @@ h1 {
 .section-services .single-service {
 	margin-top: 40px;
 	background-color: #ee6f57;
+	height: 100vh;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 }
 
@@ -598,10 +596,10 @@ h1 {
 }
 
 .section-services .single-service .part-2 .description {
-	margin-bottom: 22px;
 	color: black;
 	font-size: 14px;
 	line-height: 1.8em;
+	font-weight: 300;
 }
 
 .section-services .single-service .part-2 a {
@@ -616,26 +614,39 @@ h1 {
 }
 
 #banner__secciones {
-	background-color: black;
+	background-color: #f6f5f5;
 }
 
 #banner__secciones-modifier h1 {
-	color: #F2F3EB;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 5vw;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vw;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 600;
+	text-align: justify;
+
 }
 
 #banner__secciones-modifier p {
-	color: #F2F3EB;
-	font-size: 2vw;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vw;
 	text-align: center;
 	font-weight: 100;
+	text-align: justify;
 }
+
 
 /************** SERVICIOS - PAGINAS **************/
 
+
+.title_servicios {
+	font-family: 'Raleway', sans-serif;
+	font-size: 6vw;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
 
 .tz-gallery {
 	padding: 40px;
@@ -701,10 +712,9 @@ h1 {
 .lightbox img:not(:hover) {
 	filter: saturate(1) opacity(1);
 }
-}
+
 
 /************** CONTACTO **************/
-
 
 
 #container-contact {
@@ -712,6 +722,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
+
 }
 
 form {
@@ -785,8 +796,6 @@ textarea {
 	width: 100%;
 }
 
-
-
 #form_button {
 	background: none;
 	border: solid 2px #474544;
@@ -799,6 +808,7 @@ textarea {
 	outline: none;
 	padding: 20px 35px;
 	text-transform: uppercase;
+	width: 100%;
 }
 
 #form_button:hover {
@@ -814,7 +824,8 @@ textarea {
 
 @media screen and (max-width: 420px) {
 	#container-contact {
-		margin: 20px auto;
+		margin: 0px auto;
 		width: 100%;
 		display: inline-block;
 	}
+}
