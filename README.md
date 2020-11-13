@@ -2,4 +2,4 @@
 
 Diseñadora Industrial residenciada en Maracaibo, Venezuela.
 
-[Ver pagina web.🤖 ](https://elvisfinol.github.io/portfoliomariarivas/index.html "Ver pagina web.")
+[Ver página online.🤖 ](https://elvisfinol.github.io/portfoliomariarivas/index.html "Ver página online.")
