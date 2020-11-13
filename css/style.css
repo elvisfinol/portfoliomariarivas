@@ -164,7 +164,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 6vh;
-	max-width: 60vw;
+	max-width: 40vw;
 	padding-top: 4vw;
 	padding-bottom: 4vw;
 	padding-left: 2vw;
@@ -178,7 +178,7 @@ body {
 	text-decoration: none;
 	color: #e6e8e9;
 	font-weight: 100;
-	font-size: 5vw;
+	font-size: 3vw;
 }
 
 
