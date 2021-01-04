@@ -624,9 +624,9 @@ body {
 	font-size: 3rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	text-align: center;
 	font-weight: 600;
-	text-align: justify;
+	display: flex;
+	justify-content: center;
 
 }
 
