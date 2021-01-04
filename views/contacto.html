@@ -79,7 +79,7 @@
 	
 
 		<div class="container col-md-8">
-			<form id="form"">
+			<form id="form" action="POST" data-netlify="true">
 				<div class="name">
 					<label for="name"></label>
 					<input type="text" placeholder="Mi Nombre" name="name" id="name_input" required>
@@ -94,7 +94,7 @@
 				</div>
 				<div class="subject">
 					<label for="subject"></label>
-					<select placeholder="Subject line" name="subject" id="subject_input" required>
+					<select placeholder="Subject line" name="subject_input" id="subject_input" required>
 					<option disabled hidden selected>Estoy interesado en</option>
 					<option>Escenografía</option>
 					<option>Stands & Exposiciones</option>
@@ -110,6 +110,7 @@
 					<textarea name="message" placeholder="Describe tu Proyecto/Consultas" id="message_input" cols="30" rows="3" required></textarea>
 				</div>
 				<div class="submit mt-5">
+					<div class="data-netlify-recaptcha"></div>
 					<input type="submit" value="Enviar" id="form_button" />
 				</div>
 			</form>
