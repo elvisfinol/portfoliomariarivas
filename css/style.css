@@ -6,7 +6,7 @@
 
 html,
 body {
-	height: 100vh;
+	height: 100%;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	width: 100%;
@@ -61,11 +61,15 @@ body {
 
 /************** INDEX **************/
 
+.header {
+	padding: 20px;
+}
 
 .header .navbar {
 	background-color: #f6f5f5;
 	border-bottom: 0.1rem solid #f6f5f5;
 	padding-left: 40px;
+	border-radius: 80px;
 
 }
 
@@ -126,7 +130,7 @@ body {
 	border-right: .15em solid #ee6f57;
 }
 
-#text-main p {
+#quote {
 	font-family: 'Raleway', sans-serif;
 	font-size: 3vw;
 	text-align: center;
@@ -236,9 +240,14 @@ body {
 
 
 .footer {
-	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 20px;
 	text-align: center;
 	background-color: #ee6f57;
+
 }
 
 .footer__coppy {
@@ -252,8 +261,8 @@ body {
 }
 
 .footer__social a {
-	font-size: 2rem;
-	padding: 20px;
+	font-size: 2.4rem;
+	padding: 14px;
 	color: black;
 	margin: 0;
 }
@@ -265,6 +274,7 @@ body {
 .footer__social a:hover {
 	background-color: white;
 	transition: 0.8s;
+	border-radius: 15px;
 }
 
 
@@ -304,8 +314,10 @@ body {
 }
 
 #main-s-left img {
-	height: 600px;
+	height: 500px;
 	width: auto;
+	box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.15), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+	border-radius: 20px;
 
 }
 
@@ -571,6 +583,7 @@ body {
 	background-color: #ee6f57;
 	height: auto;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+	border-radius: 40px;
 }
 
 .section-services .single-service .part-1 {
@@ -615,6 +628,10 @@ body {
 
 #banner__secciones {
 	background-color: #f6f5f5;
+	border-radius: 100px;
+	padding: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 #banner__secciones-modifier h1 {
@@ -626,7 +643,6 @@ body {
 	font-weight: 600;
 	display: flex;
 	justify-content: center;
-
 }
 
 #banner__secciones-modifier p {
@@ -718,6 +734,39 @@ body {
 }
 
 
+#work {
+	width: 92vw;
+	padding: 6vh 4vw;
+	font-weight: bold;
+}
+
+#work h1 {
+	padding: 5px 0px;
+	border-bottom: 4px solid rgb(255, 44, 90);
+	width: 6%;
+}
+
+#photos {
+	width: 100%;
+	columns: 3;
+	column-gap: 4%;
+	z-index: 1;
+	transition: 0.4s ease-in-out;
+}
+
+#photos img {
+	width: 100%;
+	height: auto;
+	margin: 4.5% 0px;
+	transition: 0.4s ease-in-out;
+}
+
+#photos img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
 /************** CONTACTO **************/
 
 
@@ -733,6 +782,8 @@ form {
 	padding: 3.7rem;
 	margin: 0.5rem 0;
 	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+	border-radius: 20px;
+
 }
 
 .email {
