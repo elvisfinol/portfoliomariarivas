@@ -124,7 +124,6 @@ body {
 		typing 0.5s steps(30, end),
 		blink-caret .5s step-end infinite;
 	border-right: .15em solid #ee6f57;
-	white-space: nowrap;
 }
 
 #text-main p {
