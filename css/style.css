@@ -6,10 +6,14 @@
 
 html,
 body {
+<<<<<<< HEAD
 	height: 100%;
+=======
+	height: 100;
+>>>>>>> f4c19a04c72dc85b6a2c2a8a4a8bf3a5c1817f78
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	width: 100%;
+	width: 100;
 }
 
 
@@ -113,26 +117,33 @@ body {
 	padding-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+
+
+
 }
 
 #text-main h1 {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 10vw;
-	line-height: 6rem;
+	line-height: 8rem;
 	text-align: center;
 	text-transform: uppercase;
 	color: black;
 	animation:
 		typing 0.5s steps(30, end),
 		blink-caret .5s step-end infinite;
+<<<<<<< HEAD
 	border-right: .15em solid #ee6f57;
+=======
+	border-right: .10em solid #ee6f57;
+>>>>>>> f4c19a04c72dc85b6a2c2a8a4a8bf3a5c1817f78
 }
 
 #quote {
 	font-family: 'Raleway', sans-serif;
-	font-size: 3vw;
+	font-size: 5vh;
 	text-align: center;
 	font-weight: 100;
 }
@@ -166,10 +177,10 @@ body {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	height: 6vh;
-	max-width: 40vw;
-	padding-top: 4vw;
-	padding-bottom: 4vw;
+	max-width: 40vh;
+	max-height: 10vh;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 	padding-left: 2vw;
 	padding-right: 2vw;
 	background-color: #ee6f57;
@@ -181,7 +192,7 @@ body {
 	text-decoration: none;
 	color: #e6e8e9;
 	font-weight: 100;
-	font-size: 3vw;
+	font-size: 2.5vh;
 }
 
 
@@ -320,7 +331,6 @@ body {
 	border-radius: 20px;
 
 }
-
 
 .btn-resume {
 	width: 200px;
