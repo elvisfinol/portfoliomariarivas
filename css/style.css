@@ -6,11 +6,10 @@
 
 html,
 body {
-	<<<<<<< HEAD height: 100%;
-	=======height: 100;
-	>>>>>>>f4c19a04c72dc85b6a2c2a8a4a8bf3a5c1817f78 box-sizing: border-box;
+	height: 100%;
+	box-sizing: border-box;
 	scroll-behavior: smooth;
-	width: 100;
+	width: 100%;
 }
 
 
