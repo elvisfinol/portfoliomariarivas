@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url("./fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -128,9 +134,9 @@ body {
 	text-transform: uppercase;
 	color: black;
 	animation:
-		typing 0.5s steps(30, end),
+		typing 0.5s steps(2, end),
 		blink-caret .5s step-end infinite;
-	border-right: .15em solid #ee6f57;
+	border-right: .1em solid #ee6f57;
 }
 
 #quote {
@@ -169,8 +175,9 @@ body {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 40vh;
-	max-height: 10vh;
+	margin-top: 40px;
+	max-width: 50vh;
+	max-height: 20vh;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
 	padding-left: 2vw;
@@ -183,8 +190,8 @@ body {
 #btn-home a {
 	text-decoration: none;
 	color: #e6e8e9;
-	font-weight: 100;
-	font-size: 2.5vh;
+	font-weight: lighter;
+	font-size: 3.5vh;
 }
 
 
@@ -260,6 +267,11 @@ body {
 
 .footer__coppy a {
 	color: white;
+}
+
+.footer__coppy a:hover {
+	text-decoration: none;
+	color: black;
 
 }
 

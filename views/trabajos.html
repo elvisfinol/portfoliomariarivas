@@ -26,6 +26,13 @@
 	 <!-- ANIMATE -->
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
+	 	<!-- jquery cdn link -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	 	<!-- magnific popup -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
   </head>
   <body>
 
@@ -74,42 +81,50 @@
 				</div>
 			</div>
 
+		    <div class="container-fluid gallery-container">
 
-		<div class="tz-gallery">
-	
-			<div class="row">
-	
-				<div class="col-sm-12 col-md-6">
-					<a class="lightbox" href="../img/Categorias/Home/APARTAMENTO-AM-A-05.jpg">
-						<img src="../img/Categorias/Home/APARTAMENTO-AM-A-05.jpg" alt="#">
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<a class="lightbox" href="../img/Categorias/Home/El-Resuelve-B-02.jpg">
-						<img src="../img/Categorias/Home/El-Resuelve-B-02.jpg" alt="#">
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<a class="lightbox" href="../img/Categorias/Home/krts-cock-01.jpg">
-						<img src="../img/Categorias/Home/krts-cock-01.jpg" alt="#">
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<a class="lightbox" href="../img/Categorias/Home/MAQ-FUND-CHOC-COCINA-01.jpg">
-						<img src="../img/Categorias/Home/MAQ-FUND-CHOC-COCINA-01.jpg" alt="#">
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<a class="lightbox" href="../img/Categorias/Home/PCM-2019C-02.jpg">
-						<img src="../img/Categorias/Home/PCM-2019C-02.jpg" alt="#">
-					</a>
-				</div> 
-				<div class="col-sm-12 col-md-6">
-					<a class="lightbox" href="../img/Categorias/Home/PCM-2019C-02.jpg">
-						<img src="../img/Categorias/Home/PCM-2019C-02.jpg" alt="#">
-					</a>
-				</div>
-			</div>
+
+			    <div class="tz-gallery">
+
+                    <div class="row border border-light rounded">
+                        <div class="col-sm-12 col-md-6">
+                            <a class="lightbox" href="../img/Categorias/Home/APARTAMENTO-AM-A-05.jpg">
+                                <img src="../img/Categorias/Home/APARTAMENTO-AM-A-05.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../img/Categorias/Home/El-Resuelve-B-02.jpg">
+                                <img src="../img/Categorias/Home/El-Resuelve-B-02.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-12">
+                            <a class="lightbox" href="../img/Categorias/Home/krts-cock-01.jpg">
+                                <img src="../img/Categorias/Home/krts-cock-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                            <a class="lightbox" href="../img/Categorias/Home/MAQ-FUND-CHOC-COCINA-01.jpg">
+                                <img src="../img/Categorias/Home/MAQ-FUND-CHOC-COCINA-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <a class="lightbox" href="../img/Categorias/Home/PCM-2019C-02.jpg">
+                                <img src="../img/Categorias/Home/PCM-2019C-02.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <a class="lightbox" href="../img/Categorias/Modelado3D/2019E-Estetica-B-05.jpg">
+                                <img src="../img/Categorias/Modelado3D/2019E-Estetica-B-05.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                            <a class="lightbox" href="../img/Categorias/Modelado3D/APARTAMENTO-AM-A-07.jpg">
+                                <img src="../img/Categorias/Modelado3D/APARTAMENTO-AM-A-07.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+			    </div>
+    </div>
 	
 		</div>
 	
@@ -133,6 +148,16 @@
 	</div>
 	<!--footer -->
 
+
+		<script type="text/javascript">
+		$(".tz-gallery").magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			gallery:{
+				enabled: true
+			}
+		});
+    </script>
 
 
 	<div class="cursor"></div>
